@@ -1,0 +1,94 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  justify-content: center;
+}
+
+.bg-part {
+  width: 80vw;
+  height: 70vh;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.bg-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title-design {
+  font-size: 20px;
+  color: #b5b7c4;
+  margin-top: 10px;
+}
+
+.input-container {
+  width: 20vw;
+  margin-top: 10px;
+  border-radius: 6px;
+  height: 30px;
+}
+
+.heading {
+  font-size: 30px;
+  color: #171f46;
+  font-family: 'roboto';
+}
+
+.button-design {
+  color: white;
+  margin-top: 30px;
+  background-color: #8b5cf6;
+  border-radius: 6px;
+  border: 1px solid;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.line {
+  border: 1px solid #b5b7c4;
+  display: flex;
+  margin-top: 20px;
+  width: 70vw;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.btn-design {
+  width: 70px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #9897f0;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+  color: #9897f0;
+}
